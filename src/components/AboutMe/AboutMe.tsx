@@ -1,7 +1,6 @@
-import gitPic from "GitHub-Mark.jpg";
-//import linkedinPic from "../../data/img/linkedin-logo-icon-3.jpg";
-// import AboutMeContent from "@/data/content/AboutMeContent";
-import AboutMeContent from "../../public/data/content/AboutMeContent";
+
+import classes from "./AboutMe.module.css";
+import AboutMeContent from "../../../public/data/content/AboutMeContent";
 
 //import resume from "@/data/content/Alexander_Mah_Resume.pdf";
 import { Button, Container, Row, Col, Image } from "react-bootstrap";
@@ -13,16 +12,18 @@ const AboutMe = () => {
         <Row className="text-center justify-content-center align-items-center flex-column-reverse flex-lg-row my-3">
           <Col className="col-lg-6 col-10 justify-content-center my-1">
             
-              {/* <p className="h5 text-left" style={{ "line-height": 30 }}> */}
+              <div className="h5 text-left">
+                <p className={classes.bio}>
                 {AboutMeContent[0].bio}
-              {/* </p> */}
+                </p>
+              </div>
            
           </Col>
           <Col className="col-lg-6 col-10 justify-content-center align-items-center my-3">
             <Row>
               <Col className="col-2"></Col>
              
-                <Image src="GitHub-Mark.jpg" alt="Alex Mah" fluid />
+                <Image src="../data/img/profPic1.jpg" alt="Alex Mah" fluid />
 
               <Col className="col-2"></Col>
             </Row>
@@ -45,7 +46,7 @@ const AboutMe = () => {
                     className="col-12 col-lg-8"
                     href={AboutMeContent[0].linkedin}
                   >
-                    <Image src="GitHub-Mark.jpg" alt="Link" fluid />
+                    <Image src="../data/img/linkedin-logo-icon-3.jpg" alt="Link" fluid />
                   </a>
                   <Col className="col-2"></Col>
                 </Row>
@@ -57,7 +58,7 @@ const AboutMe = () => {
                     className="col-12 col-lg-8"
                     href={AboutMeContent[0].github}
                   >
-                    <Image src="GitHub-Mark.jpg" alt="Link" fluid />
+                    <Image src="../data/img/Github-Mark.jpg" alt="Link" fluid />
                   </a>
                   <Col className="col-2"></Col>
                 </Row>
