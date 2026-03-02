@@ -1,0 +1,36 @@
+// import IBMPic from "../img/IBM.jpg";
+// import IgnitePic from "../img/SchulichIgnite.jpg";
+// import Hackathon from "../img/IBMHackathon.png";
+// import AssociateDeveloper from "../img/associateDeveloperProfilePic.jpg";
+
+
+export default [
+  {
+    experienceTitle: "Associate Developer at IBM",
+    date: ["July 2021", "Current"],
+    experienceDescription:
+      "Currently, I am a Associate Developer at IBM! It's a bit different that doing pure development as it is in the Global Buisness Services (GBS) arm of IBM. I get to not only develop with code, but be invovled in the consulting aspects of the project as well! I've had the pleasure of developing in different enviroments during my time here. I have previously worked on a full stack project, using SpringBoot, Kafika Streams and MongoDB to process and manage bank client account data. Currently, I am developing native iOS applications using Swift! This position is fantastic in that I have the oppourtunity to learn many different aspects of the industry, from modeling in Unity to Apple iOS app development in Swift, or Cloud Computing Services like Google Cloud and Azure. I'm excited to see where else it takes me!",
+    image: "../data/img/associateDeveloperProfilePic.jpg",
+  },
+  {
+    experienceTitle: "S.W.A.T. Developer at IBM",
+    date: ["May 2019", "April 2021"],
+    experienceDescription:
+      "I had the privilege to be part of the Center for Advanced Studies (CAS) Team at IBM Markham. As a S.W.A.T. Team developer intern, I helped manage a full stack application that used Angular JS, Node.JS and Dockers. My other responsibilities included managing the team’s websites which were built and managed on a WebSphere Application Server (WAS). Through presenting and delivering workshops to clients and students, I also became familiar with the IBM cloud tools, such as artificial intelligence and machine learning with IBM Watson. This internship provided many amazing experiences! I assisted the team in presenting EVOKE CASCON, which is a convention combining academia and industry with 1000+ attendees (that’s where the picture you see here of me and my team is from). I traveled to Montreal and Ottawa to deliver workshops for my team and even had the opportunity to go to Chicago to present a workshop on IBM Watson tools! I’m very thankful for the opportunity to not only learn more about emerging technology, but to also meet many fascinating individuals pioneering the next ideas to change the world.",
+    image: "../data/img/IBM.jpg",
+  },
+  {
+    experienceTitle: "IBM Intern Hackathon",
+    date: ["July 2019"],
+    experienceDescription:
+      "During my internship at IBM, I participated in the IBM North America Hackathon. My team won first place in the Canadian division with our concept, the Smart Food Saver (SFS). The SFS utilizes IBM Machine Learning to analyse food waste being produced by small businesses to determine how much food and ingredients should be ordered to minimize waste. It factors in how much the business might sell of certain item using data from the Weather Company. Not only did we work on something that is very close to me (my parents owned a café), but I also got to use Machine Learning and AI in a practical application. Also, first place comes with iPad Minis so that didn’t hurt either.",
+    image: "../data/img/IBMHackathon.png",
+  },
+  {
+    experienceTitle: "Schulich Ignite",
+    date: ["May 2017", "July 2018"],
+    experienceDescription:
+      "I helped start Schulich Ignite, a club at the University of Calgary that aims to inspire students in programming. We recruit high school students with no programming experience and teach them how to code. By choosing Processing, a very visual and artistic framework for Java, we aim for the student to be able to play around and teach them that coding is fun! The goal of the club is to ignite their passion for programming, pun fully intended. I mentored the students during the years I participated, and in my last year I was a co-president of the club and helped run administrative duties.",
+    image: "../data/img/SchulichIgnite.jpg",
+  },
+];
