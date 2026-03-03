@@ -19,7 +19,11 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    rules: {
+  'react/jsx-key': [1, { checkFragmentShorthand: true }]
+}
   },
+  
 ];
 
 export default eslintConfig;
