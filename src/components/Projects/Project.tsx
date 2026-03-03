@@ -1,6 +1,6 @@
 
 import classes from "./Project.module.css";
-import "animate.css/animate.min.css";
+
 import { Button, Container, Row, Col, Image } from "react-bootstrap";
 
 interface Project {

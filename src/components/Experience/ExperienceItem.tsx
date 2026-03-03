@@ -1,5 +1,4 @@
 import classes from "./ExperienceItem.module.css";
-import "animate.css/animate.min.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 //Expected Interface Item
