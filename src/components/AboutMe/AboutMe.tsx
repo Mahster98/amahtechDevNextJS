@@ -58,7 +58,7 @@ const AboutMe = () => {
                     className="col-12 col-lg-8"
                     href={AboutMeContent[0].github}
                   >
-                    <Image src="../data/img/Github-Mark.jpg" alt="Link" fluid />
+                    <Image src="../data/img/GitHub-Mark.jpg" alt="Link" fluid />
                   </a>
                   <Col className="col-2"></Col>
                 </Row>

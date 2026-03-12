@@ -6,10 +6,24 @@
 
 export default [
   {
-    experienceTitle: "Associate Developer at IBM",
-    date: ["July 2021", "Current"],
+    experienceTitle: "CyberSecurity Student at SAIT",
+    date: ["January 2026", "Current"],
     experienceDescription:
-      "Currently, I am a Associate Developer at IBM! It's a bit different that doing pure development as it is in the Global Buisness Services (GBS) arm of IBM. I get to not only develop with code, but be invovled in the consulting aspects of the project as well! I've had the pleasure of developing in different enviroments during my time here. I have previously worked on a full stack project, using SpringBoot, Kafika Streams and MongoDB to process and manage bank client account data. Currently, I am developing native iOS applications using Swift! This position is fantastic in that I have the oppourtunity to learn many different aspects of the industry, from modeling in Unity to Apple iOS app development in Swift, or Cloud Computing Services like Google Cloud and Azure. I'm excited to see where else it takes me!",
+      "I’m currently studying Cybersecurity at SAIT! It’s quite interesting to learn more about how the networking side of computing works, especially with doing so much development using APIs. As the world becomes more connected each day, I’m excited to learn skills that will help protect people in the future. I’m also excited to learn some ethical hacking and see how to use that to create more secure systems!",
+    image: "../data/img/Beekeeping.jpeg",
+  },
+  {
+    experienceTitle: "Culinary Graduate at NWCAV",
+    date: ["May 2024", "April 2025"],
+    experienceDescription:
+      "I had the opportunity to study at the Northwest Culinary Academy of Vancouver! I knew one day I would want to try and go explore my passion for food, and I took some time to study the ins and outs of the kitchen. I started with the pastry program and learned a lot about baking pastries and cakes, then moved onto the culinary program. I was fortunate enough to do my co-op at Northwest as well! It was a fantastic experience and I am honoured to work with such an amazing team of people. Going to culinary school was one of the scariest decisions I’ve ever made but I’m glad I took the leap and decided to go for it. I’m happy to have met so many people, classmates and chefs and am excited to see what I cook up in the future! Stay tuned!",
+    image: "../data/img/culinaryPic.JPG",
+  },
+  {
+    experienceTitle: "Associate Developer at IBM",
+    date: ["July 2021", "May 2024"],
+    experienceDescription:
+      "I was an Associate Developer at IBM! It was a pleasure not only developing code, but also to be involved in the consulting aspects of projects as well. I’ve had the pleasure of developing in several different environments during my time at IBM. I worked on full stack projects using spring boot, Kafika streams and MongoDB to process and manage bank client account data. I even had the opportunity to work on a few Swift projects, as well as other Cloud technologies like Google Cloud and Azure. I’m thankful for my time at IBM!",
     image: "../data/img/associateDeveloperProfilePic.jpg",
   },
   {

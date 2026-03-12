@@ -15,13 +15,13 @@ export default function Home() {
         <h1 className="title">About Me</h1>
         <AboutMe />
       </div>
-      <div className="projectDiv" id="Projects">
-        <h1 className="title"> My Projects </h1>
-        <Projects />
-      </div>
       <div className="experienceDiv" id="Experience">
         <h1 className="title"> Experience </h1>
         <Experience />
+      </div>
+      <div className="projectDiv" id="Projects">
+        <h1 className="title"> My Projects </h1>
+        <Projects />
       </div>
 
 

@@ -18,7 +18,7 @@ export default [
     ],
     projectDescription:
       "For the capstone project in my final year of my Software Engineering undergraduate degree, I helped build a net work of sensors to help detect wildfires in the Kananaskis area in Alberta. The system consisted of small sensors that were connected to each other via the ANT Blaze wireless protocol. If the sensors detected temperatures or gas levels above the threshold, they would send an alarm across the network to a gateway device. This gateway device would then send the alarm information up to cloud, where then dashboard clients would then be updated. \n I worked in the frontend dashboards of the project, which consisted of a browser desktop dashboard as well as a mobile phone application. I also developed the website design and project video. It was an amazing experience working across a multidisciplinary team consisting of mechanical, electrical and software disciplines. We won first place in the Multidisciplinary category as well!",
-    image: "../data/img/ANTBlazeLogo.png",
+    image: "../data/img/ANTBlazeLogo.PNG",
     link: null,
     // link: "https://engineeringdesignfair.ucalgary.ca/multidisciplinary/ant-blaze-iot-wildfire-detection/",
   },
